@@ -2,7 +2,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // ─── CHANGE THIS to your server's local IP ───────────────────────────────────
-export const BASE_URL = 'http://192.168.1.2:8000';
+export const BASE_URL = 'https://web-production-ab4a.up.railway.app';
 
 const api = axios.create({ baseURL: BASE_URL, timeout: 10000 });
 
